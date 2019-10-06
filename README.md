@@ -11,6 +11,11 @@ To install, download or clone the repo, then:
 `npm install`
 `truffle compile`
 
+## Ganache-cli
+To run local blockchain run command below to create 100 accounts. Need these accounts to register several Oracles in the server code:
+
+ganache-cli -m "candy maple cake sugar pudding cream honey rich smooth crumble sweet treat" -a 100
+
 ## Develop Client
 
 To run truffle tests:
@@ -31,6 +36,9 @@ To view dapp:
 
 `npm run server`
 `truffle test ./test/oracles.js`
+
+Use variable "numOfOracles" in server.js file to change number of Oracles to be registered manually. Currently it is set to 30.
+
 
 ## Deploy
 
