@@ -6,9 +6,12 @@ I built a DApp (Decentralized application) using Solidity smart contracts and we
 
 The underlying code creates this Dapp by implement the following using Solidity smart contracts:
 
-Multi-party consensus
+Multi-party consensus      
+
 Oracles
+
 Receive, transfer and send funds
+
 Smart Contract upgradability
 
 The initial airline was registered on the smart contract when the contract was deployed. The subsequent four airlines can be added by any of the registered airlines. Each airline has to deposit 10 ether to be registered. After the first four airlines, any new airlines can be regisitered using a multiparty consensus of more than 50% airlines approving the new airline. Each airline can then register a flight which they are willing to insure.
